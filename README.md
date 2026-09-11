@@ -96,7 +96,7 @@ Both hosts run the **same** namespace. Either alone is not the gate.
 
 ```bash
 clojure -M:test                              # JVM
-nbb --classpath src:test run-tests.cljs      # ClojureScript
+nbb --classpath src:test run-tests.cljk      # ClojureScript
 ```
 
 25 tests, 77 assertions, 0 failures on both (2026-08-08). Verified to actually
