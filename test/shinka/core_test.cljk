@@ -1,5 +1,5 @@
 (ns shinka.core-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [shinka.rng :as rng]
             [shinka.genome :as genome]
             [shinka.variation :as var]

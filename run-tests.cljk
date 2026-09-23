@@ -7,7 +7,7 @@
   The RNG parity literals in that namespace are the point -- if the two hosts
   ever produce different streams, this run fails and the JVM run does not,
   which is exactly the signal a `.cljc` library needs."
-  (:require [clojure.test :as t]
+  (:require [kotoba.test :as t]
             [shinka.core-test]))
 
 ;; nbb already prints the summary; this only turns a failure into a non-zero
